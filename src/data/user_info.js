@@ -24,15 +24,15 @@ projects: [
         title: "Simple Calculator DApp",
         description: "A basic decentralized application (DApp) showcasing a calculator with functions like addition, subtraction, multiplication, and division. Built with Solidity and React.",
         technologies: "Solidity, React, Tailwind",
-        github: "https://github.com/yourusername/simple-calculator-dapp",
-        link: "https://simple-calculator-dapp.example.com"
+        github: "https://github.com/Anu9969/My-Calculator-Dapp",
+        link: "https://my-calculator-dapp.vercel.app"
     },
     {
         title: "ETH Balance Checker",
         description: "A mini DApp to check the Ether balance of any Ethereum wallet. Built using Web3.js and React.",
         technologies: "Web3.js, React, Tailwind",
-        github: "https://github.com/yourusername/eth-balance-checker",
-        link: "https://eth-balance-checker.example.com"
+        github: "https://github.com/Anu9969/Harkirat",
+        link: "https://ethbal.sharma.acmsscbs.in"
     },
     {
         title: "Blind Auction Smart Contract",
@@ -42,41 +42,56 @@ projects: [
         link: "https://blind-auction.example.com"
     },
     {
-        title: "Dono",
-        description: "Frontend website for a donation platform.",
+        title: "Send Ethereum",
+        description: "A DApp to send Ethereum using wallet adapters.",
+        technologies: "React, Ethereum, Vercel",
+        github: "https://github.com/Anu9969/Eth-Wallet-Adapter",
+        link: "https://send-eth-umber.vercel.app"
+    },
+    {
+        title: "My Portfolio 1",
+        description: "A personal portfolio website showcasing projects and achievements.",
         technologies: "HTML, CSS, JavaScript",
-        github: "https://github.com/yourusername/dono",
-        link: "https://dono.example.com"
+        github: "https://github.com/Anu9969/My-Portfolio-1",
+        link: "https://my-portfolio-1-liart.vercel.app"
     },
     {
-        title: "Token Launchpad",
-        description: "Platform for launching tokens, offering minting and presale functionalities.",
-        technologies: "Solidity, React, Tailwind",
-        github: "https://github.com/yourusername/token-launchpad",
-        link: "https://token-launchpad.example.com"
+        title: "Biryani Shop Frontend",
+        description: "Responsive frontend for a biryani shop with a custom navbar.",
+        technologies: "HTML, Tailwind CSS",
+        github: "https://github.com/Anu9969/Taiwind-Practice-projects",
+        link: "https://biryani-shop-frontend.vercel.app"
     },
     {
-        title: "Staking DApp on Telos Network",
-        description: "A decentralized staking application built on the Telos blockchain, allowing users to stake tokens.",
-        technologies: "Solidity, Telos Network, React",
-        github: "https://github.com/yourusername/staking-dapp-telos",
-        link: "https://staking-dapp-telos.example.com"
+        title: "Peer-to-Peer Chat",
+        description: "A chat application built with Peer.js for peer-to-peer communication.",
+        technologies: "JavaScript, Peer.js",
+        github: "https://github.com/Anu9969/PeerJs-Chat",
+        link: "https://peer-js-chat.vercel.app"
     },
     {
-        title: "CLI Solana Wallet",
-        description: "Command-line interface wallet for interacting with the Solana blockchain.",
-        technologies: "Rust, Solana SDK",
-        github: "https://github.com/yourusername/cli-solana-wallet",
-        link: "https://cli-solana-wallet.example.com"
+        title: "Tailwind Frontends",
+        description: "A collection of landing pages and frontends created using Tailwind CSS.",
+        technologies: "HTML, Tailwind CSS",
+        github: "https://github.com/Anu9969/Tailwind-Frontends",
+        link: "https://landpage.sharma.acmsscbs.in"
     },
     {
-        title: "Flutter Projects",
-        description: "Various small projects developed using Flutter.",
-        technologies: "Flutter, Dart",
-        github: "https://github.com/yourusername/flutter-projects",
-        link: "https://flutter-projects.example.com"
+        title: "Todo App",
+        description: "A simple todo app built without a database.",
+        technologies: "React, Tailwind",
+        github: "https://github.com/Anu9969/Todo-App",
+        link: "https://todo-app-6vo2.vercel.app"
+    },
+    {
+        title: "Forked",
+        description: "A project initialized with a Vercel template.",
+        technologies: "HTML, CSS, JavaScript",
+        github: "https://github.com/Anu9969/forked",
+        link: "https://forked-six.vercel.app"
     }
 ],
+
 
 
 // ============ EDUCATION ============
