@@ -22,15 +22,7 @@ function Contact() {
 
       {/* =========== LINKS =========== */}
       <div className="mt-12">
-        {/* =========== FACEBOOK =========== */}
-        {/* <a
-          href={user_info.socials.facebook}
-          className="flex gap-4 text-zinc-600 dark:text-zinc-300 hover:dark:text-zinc-300  hover:text-zinc-700 transition-all duration-300"
-        >
-          <FaFacebook className="self-center text-lg text-red-800 dark:text-red-500" />
-          <span className="self-center">Follow on Facebook</span>
-        </a> */}
-
+    
         {/* =========== X =========== */}
         <a
           href={user_info.socials.twitter}
