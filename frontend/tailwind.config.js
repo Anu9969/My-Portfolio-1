@@ -9,7 +9,15 @@ export default {
     "./node_modules/preline/preline.js",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        text: 'var(--text) !important',
+        background: 'var(--background) !important',
+        primary: 'var(--primary) !important',
+        secondary: 'var(--secondary) !important',
+        accent: 'var(--accent) !important',
+      },
+    },
   },
   plugins: [prelinePlugin],
 };
