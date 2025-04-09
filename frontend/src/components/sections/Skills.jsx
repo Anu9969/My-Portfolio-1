@@ -1,15 +1,13 @@
 // import { BiLogoNetlify, BiLogoPostgresql, BiLogoTypescript } from "react-icons/bi";
-import { CgVercel } from "react-icons/cg";
+// import { CgVercel } from "react-icons/cg";
 // import { DiGithubAlt, DiMongodb } from "react-icons/di";
 // import { FaDocker } from "react-icons/fa";
-import {  FaCss3Alt, FaHtml5, FaNodeJs, FaPython, FaReact} from "react-icons/fa6";
+import { FaAws, FaCss3Alt, FaDigitalOcean, FaGitAlt, FaGitlab, FaHtml5, FaNodeJs, FaPython, FaReact, FaVuejs } from "react-icons/fa6";
 import { IoLogoJavascript } from "react-icons/io";
-import {  SiExpress, SiFlask, SiFlutter, SiPostman, SiTailwindcss } from "react-icons/si";
-import { TokenIcon, WalletIcon, NetworkIcon } from '@web3icons/react'
+import { IoLogoFirebase } from "react-icons/io5";
+import { SiAntdesign, SiExpress, SiFlask, SiJest, SiNuxtdotjs, SiPassport, SiPostman, SiPythonanywhere, SiSequelize, SiTailwindcss, SiTensorflow } from "react-icons/si";
+// import { TbBrandNextjs } from "react-icons/tb";
 
-
-        
- 
 function Skills() {
   return (
 <section id="skills" className="mx-4 lg:mx-20">
@@ -28,8 +26,15 @@ function Skills() {
     <span className="inline-flex items-center justify-between gap-x-1.5 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-accent-light text-accent dark:bg-dark-accent dark:text-accent-light">
       <IoLogoJavascript className="text-2xl" /> JavaScript
     </span>
+<<<<<<< HEAD:frontend/src/components/sections/Skills.jsx
 
     <span className="inline-flex items-center justify-between gap-x-1.5 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-accent-light text-accent dark:bg-dark-accent dark:text-accent-light">
+=======
+    {/* <span className="inline-flex items-center justify-between gap-x-1.5 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
+      <BiLogoTypescript className="text-2xl" /> TypeScript
+    </span> */}
+    <span className="inline-flex items-center justify-between gap-x-1.5 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
+>>>>>>> parent of ae372ee (skill section updated and icons added):src/components/sections/Skills.jsx
       <FaPython className="text-2xl" /> Python
     </span>
     <span className="inline-flex items-center justify-between gap-x-1.5 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-accent-light text-accent dark:bg-dark-accent dark:text-accent-light">
@@ -41,6 +46,7 @@ function Skills() {
     <span className="inline-flex items-center justify-between gap-x-1.5 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-accent-light text-accent dark:bg-dark-accent dark:text-accent-light">
       <FaNodeJs className="text-2xl" /> NodeJS
     </span>
+<<<<<<< HEAD:frontend/src/components/sections/Skills.jsx
     <span className="inline-flex items-center justify-between gap-x-1.5 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-accent-light text-accent dark:bg-dark-accent dark:text-accent-light">
       <SiTailwindcss className="text-2xl" /> Tailwind CSS
     </span>
@@ -80,6 +86,16 @@ function Skills() {
     </span>
 </div>
 
+=======
+    <span className="inline-flex items-center justify-between gap-x-1.5 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
+      <SiFlask className="text-2xl" /> Flask
+    </span>
+    <span className="inline-flex items-center justify-between gap-x-1.5 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
+      <SiTailwindcss className="text-2xl" /> Tailwind
+    </span>
+    
+  </div>
+>>>>>>> parent of ae372ee (skill section updated and icons added):src/components/sections/Skills.jsx
 </section>
 
 
