@@ -6,6 +6,8 @@ import { PiCertificateFill } from "react-icons/pi";
 import { SiHackerrank, SiIbm } from "react-icons/si";
 
 function EducationAndExperience() {
+
+  
   return (
     <section id="education-and-experience" className="mt-20 mx-4 lg:mx-20 flex flex-col md:flex-row gap-4 md:gap-2">
       {/* =========== EDUCATION =========== */}
