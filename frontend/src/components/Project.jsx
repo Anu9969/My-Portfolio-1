@@ -1,12 +1,21 @@
 import { CiLink } from "react-icons/ci";
-
+import useEffect from "react";
+import { getProjects } from "../../api";
 
 function Project({ title, description, technologies, link, github }) {
+
+ 
+  
   return (
     <div className="hover:bg-zinc-100 hover:dark:bg-zinc-900 transition-all duration-300 p-6 md:rounded-xl">
       <div className="flex gap-2 overflow-x-scroll py-2">
+<<<<<<< HEAD:frontend/src/components/Project.jsx
+       
+    
        
        
+=======
+>>>>>>> parent of ae372ee (skill section updated and icons added):src/components/Project.jsx
         {/* =========== TECHNOLOGIES USED =========== */}
         {technologies.split(",").map((tech, index) => (
           <span

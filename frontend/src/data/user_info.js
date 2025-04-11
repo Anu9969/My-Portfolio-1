@@ -20,6 +20,14 @@ socials: {
 
 // ============ PROJECTS ============
 projects: [
+
+    {
+        title:"Hive Bounty",
+        description: "A Bug Bounty Platform built on Hive Blockchain",
+        technologies: "Nextjs, Tailwind CSS, Hive Blockchain ,github API ,dhive.js, Hive Keychain wallet, TypeScript",
+        github: "https://github.com/Anu9969/HiveBountyFinal",
+        link: "https://hive-bounty-final.vercel.app/"
+    },
     {
         title: "Simple Calculator DApp",
         description: "A basic decentralized application (DApp) showcasing a calculator with functions like addition, subtraction, multiplication, and division. Built with Solidity and React.",

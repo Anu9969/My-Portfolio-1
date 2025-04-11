@@ -1,7 +1,17 @@
 import user_info from "../../data/user_info.js";
 import Project from "../Project.jsx";
+import { useEffect } from "react";
+import { getProjects } from "../../../api.js";
 
 function Projects() {
+  useEffect(() => {
+    getProjects()
+    .then((projects) =>{
+       console.log(projects)
+    })
+  
+   }, [])
+
   return (
     <section
       id="projects"
